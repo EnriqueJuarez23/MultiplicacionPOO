@@ -14,13 +14,12 @@ public class MainMultiplicacion {
         // impresion de mensaje
         int b= opc.nextInt();
         // lectura del tipo de dato
-        int r= a*b;
-        // operacion de las variables, leyendo su tipo de dato
         Multiplicacion mul= new Multiplicacion();
-        mul.a=a;
-        mul.b=b;
-        mul.r=r;
-        System.out.println("El resultado de la multiplicacion:"+mul.mostrarResultado());
+        mul.setA(a);
+        mul.setB(b);
+        mul.getR();
+        System.out.println("El resultado de la multiplicacion:"+mul.toString());
      // impresion del mensaje concatenado al comportamiento
+}
 }
 // llaves que cierran
